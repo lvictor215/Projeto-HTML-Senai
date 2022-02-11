@@ -1,0 +1,114 @@
+
+div#site{
+	background-image: url(fundo.png);
+	position: center; 
+	height:0 auto;
+}
+
+div{
+ border-style: transparent;
+   border-color: #00FF56;
+   border-width: 0px;
+   padding: 2px;
+   margin: 1px;
+   position: center;
+     
+}
+div#text{
+text-align:center;
+font-family:Arial;
+font-style:italic;
+font-size: 18;
+
+
+}
+
+div#geral{/*chama o div que tem como ID o 'geral'.*/
+width: 800px;
+margin:0 auto;
+        
+}
+
+div#cabeca{/*chama o div que tem como ID o 'cabeca'.*/
+   height:auto;
+   margin:auto;
+   padding:auto;
+   position: center;
+   
+   
+}
+div#menu  {/*chama o div que tem como ID o 'menu'.*/
+   
+   height:auto;
+   margin:auto;
+   padding:auto;
+   
+   
+}
+
+div#meio{/*chama o div que tem como ID o 'meio'.*/
+	height: 0 auto;
+    position: center;
+	padding: 0 auto;
+	background-color: rgba(225, 240, 227, 50%);
+	
+   
+}
+div#meio img{
+	display: block;
+    margin-right:auto;
+    margin-left:auto;
+	
+}
+
+div#fim{/*chama o div que tem como ID o 'fim'.*/
+  
+  }
+ 
+ul#dd li{
+ list-style: none;
+ display: inline;
+ border-style: solid;
+ border-color: #00008B;
+ border-width: 3px;/*colocar a borda dos botoes*/
+ padding: 5px;
+ margin: 5px;
+ background-color: #005666;/*colocar a cor de fundo dos botoes*/
+ border-radius: 10px 10px 10px 10px; /*colocar a borda dos botoes redonda*/
+ box-shadow: 3px 3px 3px 3px; /*sobra em volta do nome do botao*/
+
+} 
+ ul#itemmenu li{/*chama o UL que tem como ID "item menu".*/
+ 
+ color:#000000;
+ list-style: none;
+ display: inline;
+ border-style: solid;
+ border-color: #008B8B;
+ border-width: 2px;/*colocar a borda dos botoes*/
+ padding: 5px;
+ margin: 5px;
+ background-color: #40E0D0;/*colocar a cor de fundo dos botoes*/
+ border-radius: 10px 10px 10px 10px; /*colocar a borda dos botoes redonda*/
+ box-shadow: 3px 3px 3px 3px; /*sobra em volta do nome do botao*/
+
+ }
+ /*chama o UL que tem como ID o 'itemmenu', sendo que o UL tem como filho LI e esse tem como filho A,sendo assim, A é neto de UL.*/
+ ul#itemmenu li a:Link{ /*é o site parado*/
+ color:#000000;
+ text-decoration: none;
+ }
+ul#itemmenu li a:hover{ /*mudando as funções do a8*/
+color: rgb(100,100,100);
+ text-decoration: underline;/*aparece a linha em baixo do nome*/
+ 
+ }
+ ul#itemmenu li a:active{ /*mudando as funções quando clica no botao*/
+ color: rgb(50,50,50);
+ text-decoration: underline;
+ }
+ ul#itemmenu li a:visited{ /*quando o usuario visita e volta ao site, os botoes permanecem o mesmo*/
+ color: #00008B;
+ text-decoration: none;
+ 
+ }

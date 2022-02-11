@@ -1,0 +1,76 @@
+div{
+ border-style: solid;
+   border-color: #789645;
+   border-width: 0px;
+  overflow: auto; 
+   /*background: #000 url(lp2.jpg);*/
+   background:#000000;
+}
+div#geral{/*chama o div que tem como ID o 'geral'.*/
+width: 800px;
+margin:0 auto;  
+       
+}
+
+div#cabeca{/*chama o div que tem como ID o 'cabeca'.*/
+   height: 100px;
+   text-align:center;
+   color: #FFFFFF;
+  font-family: helvetica;
+  font-style:italic;
+  font-size: 300%;
+  text-shadow:0 6px 4px #F21111, -3px -5px 4px #F21111, 3px -5px 4px #F21111;
+   
+  }
+
+div#meio{
+
+}
+div#menu{/*chama o div que tem como ID o 'menu'.*/
+  
+ float: left;
+ width: 150px;
+}
+div#conteudo{/*chama o div que tem como ID o 'meio'.*/
+
+  }
+div#fim{/*chama o div que tem como ID o 'fim'.*/
+  height: 100px;
+  text-align:center;
+  color: #FFFFFF;
+  }
+  
+  ul#itemmenu {
+  margin-left: -50px;
+  }
+ ul#itemmenu li{/*chama o UL que tem como ID "item menu".*/
+ list-style: none;
+ color: #FFFFFF;
+ border-style: solid;
+ border-color: #005666;
+ border-width: 2px;/*colocar a borda dos botoes*/
+ padding: 5px;
+ margin: 10px;
+ background-color: #005666;/*colocar a cor de fundo dos botoes*/
+ border-radius: 10px 0px 10px 0px; /*colocar a borda dos botoes redonda*/
+ box-shadow: 3px 3px 3px 3px #F21111; /*sombra em volta do nome do botao*/
+
+ }
+ /*chama o UL que tem como ID o 'itemmenu', sendo que o UL tem como filho LI e esse tem como filho A,sendo assim, A é neto de UL.*/
+ ul#itemmenu li a:Link{ /*é o site parado*/
+ color:#BBBBBB;
+ text-decoration: none;
+ }
+ul#itemmenu li a:hover{ /*mudando as funções do a8*/
+ text-decoration: underline;/*aparece a linha em baixo do nome*/
+ 
+ }
+ ul#itemmenu li a:active{ /*mudando as funções quando clica no botao*/
+ color:#BBBBBB;
+ text-decoration: underline;
+ }
+ ul#itemmenu li a:visited{ /*quando o usuario visita e volta ao site, os botoes permanecem o mesmo*/
+ color:#BBBBBB;
+ text-decoration: none;
+ 
+ }
